@@ -471,8 +471,8 @@ a {
 
     .image-1 {
         margin-top: 10px;
-        width: 363px;
-        height: 182px;
+        width: 348px;
+        height: 180px;
     }
 
     .feature-items {
@@ -529,12 +529,13 @@ a {
     }
 
     .service-banner {
-        width: 360px;
+        width: 345px;
         height: 475px;
     }
 
     .experience-button {
         transform: translate(70px, 403px);
+        position: absolute;
     }
 
     .secondary-button {
