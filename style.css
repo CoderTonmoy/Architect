@@ -1,0 +1,638 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*--------
+   assets 
+   -------*/
+
+.primary-button {
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.secondary-button {
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+/* ---------------
+header style starts 
+------------------*/
+
+header {
+    width: 100%;
+    height: 1360px;
+    background-color: hsla(32, 83%, 74%, 0.186);
+}
+
+.header-container {
+    padding: 40px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 673px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    gap: 50px;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    text-decoration: none;
+}
+
+/* ------------
+    banner css 
+   ------------*/
+
+.banner-item {
+    text-align: center;
+}
+
+
+.banner-title {
+    margin-bottom: 35px;
+    padding-top: 105px;
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    text-align: center;
+
+}
+
+.banner-description {
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    line-height: 26px;
+}
+
+.banner-image {
+    margin: 50px;
+}
+
+.image-1 {
+    width: 1440px;
+    height: 700px;
+}
+
+/*---------------
+   feature style 
+   --------------*/
+
+.feature-container {
+    margin-top: 85px;
+}
+
+.feature-items {
+    display: flex;
+    gap: 73px;
+}
+
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.f-img {
+
+    width: 265px;
+    height: 265px;
+}
+
+.feature-details {
+    display: grid;
+    align-content: center;
+}
+
+.feature-title {
+    margin-bottom: 24PX;
+    font-size: 45px;
+}
+
+.color-1 {
+    color: #727272;
+    font-weight: 500;
+}
+
+.color-2 {
+    color: #131313;
+    font-weight: 700;
+}
+
+.color-3 {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.feature-description {
+    margin-bottom: 32PX;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+/*---------------
+   service style 
+   --------------*/
+
+.service-container {
+    margin-top: 169px;
+    display: flex;
+    gap: 146px;
+}
+
+.service-header {
+    margin-top: 120px;
+}
+
+hr {
+    width: 18%;
+    height: 5px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    transform: rotate(90deg);
+    margin: -57px;
+}
+
+.service-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.service-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.services {
+    margin-bottom: 20px;
+    padding: 30px;
+    box-shadow: 0px 1px 21px 4px rgba(126, 123, 123, 0.093);
+    border-radius: 3px;
+}
+
+.service-banner {
+    width: 1540px;
+    height: 1055px;
+    background-image: url(images/architect.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-type {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    line-height: 23px;
+}
+
+.type-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+}
+
+.experience-button {
+    transform: translate(-73px, 925px);
+}
+
+.button-title {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.button-description {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* ------------
+ portfolio style 
+ --------------*/
+
+.portfolio-container {
+    margin-top: 130px;
+}
+
+.portfolio-heading {
+    padding-right: 571px;
+}
+
+.portfolio-title {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.portfolio-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.portfolio-items {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-content {
+    width: 240px;
+    height: 240px;
+    border: 3px solid #FF900E;
+    border-radius: 8px;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
+.portfolio-content:hover {
+    transform: rotate(40deg);
+    transition: 1s;
+}
+
+.content-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.content-description {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* ------------
+ contact style 
+ --------------*/
+
+.contact {
+    margin-top: 100px;
+}
+
+.contact-container {
+    display: flex;
+    gap: 340px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact-item {
+    margin-bottom: 16px;
+    color: #131313;
+}
+
+.contact-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.contact-description {
+    margin-top: 24px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.input-email {
+    margin-bottom: 16px;
+    padding: 21px 158px 21px 21px;
+    color: #131313;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+
+
+/* ------------
+ sponsor style 
+ --------------*/
+
+.sponsor-heading {
+    padding: 0 300px;
+    margin-top: 180px;
+    text-align: center;
+}
+
+
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponsor-description {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.sponsors {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(100%);
+}
+
+/* ------------
+  footer style 
+ --------------*/
+.footer-container {
+    margin: 169px 0 70px;
+    text-align: center;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+
+.copyright {
+    padding: 39px 210px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
+
+/* -------------
+    responsive 
+  --------------*/
+
+@media screen and (max-width: 577px) {
+
+    header {
+        height: 850px;
+    }
+
+    .header-container {
+        padding: 15px 15px;
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .header-title {
+        font-size: 38px;
+    }
+
+    .menu {
+        margin-right: 15px;
+        display: block;
+    }
+
+    .menu ul {
+        gap: 15px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .menu ul li a {
+        font-size: 14px;
+    }
+
+    .banner-title {
+        padding-top: 23px;
+        font-size: 43px;
+    }
+
+    .banner-description {
+        font-size: 15px;
+        padding: 0 30px;
+    }
+
+    .primary-button {
+        padding: 15px 17px;
+        font-size: 17px;
+    }
+
+    .banner-image {
+        margin: 13px;
+    }
+
+    .image-1 {
+        margin-top: 10px;
+        width: 363px;
+        height: 182px;
+    }
+
+    .feature-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-container {
+        margin-top: 40px;
+    }
+
+    .feature-images {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-details {
+        text-align: center;
+    }
+
+    .feature-title {
+        font-size: 39px;
+    }
+
+    .feature-description {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .service-container {
+        margin-top: 39px;
+        gap: 50px;
+        flex-direction: column;
+        padding: 0 16px;
+    }
+
+    .service-title {
+        font-size: 39px;
+        margin-bottom: 15px;
+    }
+
+    .service-description {
+        font-size: 15px;
+    }
+
+    .service-type {
+        font-size: 18px;
+    }
+
+    .type-description {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .service-banner {
+        width: 360px;
+        height: 475px;
+    }
+
+    .experience-button {
+        transform: translate(70px, 403px);
+    }
+
+    .secondary-button {
+        width: 221px;
+        height: 127px;
+    }
+
+    .button-title {
+        font-size: 45px;
+    }
+
+    .button-description {
+        font-size: 20px;
+    }
+
+    .portfolio-heading {
+        padding: 15px;
+    }
+
+    .portfolio-title {
+        margin-bottom: 9px;
+        font-size: 40px;
+    }
+
+    .portfolio-description {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .portfolio-items {
+        margin-top: 33px;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .contact-container {
+        gap: 26px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-title {
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 39px;
+        color: #131313;
+    }
+
+    .contact-description {
+        margin-top: 16px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .sponsor-heading {
+        padding: 0;
+        margin-top: 51px;
+    }
+
+    .sponsor-title {
+        font-size: 39px;
+    }
+
+    .sponsor-description {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .sponsors {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+        gap: 25px;
+        justify-items: center;
+    }
+
+    .sponsor-img {
+        width: 73px;
+        height: 22px;
+    }
+
+    .last-img {
+        top: 28px;
+        position: absolute;
+    }
+
+    .footer-container {
+        margin: 50px 3px 18px;
+    }
+
+    .copyright {
+        display: grid;
+        padding: 20px 0;
+        font-size: 10px;
+    }
+
+
+}
