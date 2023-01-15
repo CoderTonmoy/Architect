@@ -516,6 +516,7 @@ a {
     }
 
     .service-description {
+        margin-bottom: 20px;
         font-size: 15px;
     }
 
@@ -534,7 +535,7 @@ a {
     }
 
     .experience-button {
-        transform: translate(67px, 405px);
+        transform: translate(71px, 405px);
         position: absolute;
     }
 
